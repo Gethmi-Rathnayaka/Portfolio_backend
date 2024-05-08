@@ -5,6 +5,7 @@ const port = 5000;
 
 require('dotenv').config();
 const Project = require('./Project');
+const Blog = require('./Blog');
 
 app.get('/', (req, res) => {
     res.send('Hello, World!');
