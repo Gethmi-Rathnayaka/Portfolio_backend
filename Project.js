@@ -1,6 +1,7 @@
 const mongoose = require('./db');
 
 const projectSchema = new mongoose.Schema({
+    p_id: String,
     name: String,
     description: String,
 });
